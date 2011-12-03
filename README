@@ -1,0 +1,7 @@
+This is a simple proof of concept.
+
+Basicly a Stack of UIViews are swiped to scroll left and right in an endless loop using a UIViewController.
+
+There may be a better was to do this, if you have one I'd like to see it - otherwize pull it down and have a look.
+
+xCode 4.0 iOS 5.0 iPhone View Project was the starting point.

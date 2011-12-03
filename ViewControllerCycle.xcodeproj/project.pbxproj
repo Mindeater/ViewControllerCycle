@@ -15,6 +15,7 @@
 		58F057491487937B00DD7941 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F057481487937B00DD7941 /* AppDelegate.m */; };
 		58F0574C1487937B00DD7941 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F0574B1487937B00DD7941 /* ViewController.m */; };
 		58F0574F1487937B00DD7941 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58F0574D1487937B00DD7941 /* ViewController.xib */; };
+		58F05757148793AE00DD7941 /* SingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F05756148793AE00DD7941 /* SingleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		58F057381487937B00DD7941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		58F0573A1487937B00DD7941 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		58F0573C1487937B00DD7941 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		58F057401487937B00DD7941 /* ViewControllerCycle-Info.plist */ = {isa = PBXFileReference; path = "ViewControllerCycle-Info.plist"; sourceTree = "<group>"; };
+		58F057401487937B00DD7941 /* ViewControllerCycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewControllerCycle-Info.plist"; sourceTree = "<group>"; };
 		58F057421487937B00DD7941 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58F057441487937B00DD7941 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		58F057461487937B00DD7941 /* ViewControllerCycle-Prefix.pch */ = {isa = PBXFileReference; path = "ViewControllerCycle-Prefix.pch"; sourceTree = "<group>"; };
-		58F057471487937B00DD7941 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		58F057461487937B00DD7941 /* ViewControllerCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewControllerCycle-Prefix.pch"; sourceTree = "<group>"; };
+		58F057471487937B00DD7941 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58F057481487937B00DD7941 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58F0574A1487937B00DD7941 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		58F0574A1487937B00DD7941 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		58F0574B1487937B00DD7941 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58F0574E1487937B00DD7941 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		58F05755148793AE00DD7941 /* SingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleViewController.h; sourceTree = "<group>"; };
+		58F05756148793AE00DD7941 /* SingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				58F0574B1487937B00DD7941 /* ViewController.m */,
 				58F0574D1487937B00DD7941 /* ViewController.xib */,
 				58F0573F1487937B00DD7941 /* Supporting Files */,
+				58F05755148793AE00DD7941 /* SingleViewController.h */,
+				58F05756148793AE00DD7941 /* SingleViewController.m */,
 			);
 			path = ViewControllerCycle;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				58F057451487937B00DD7941 /* main.m in Sources */,
 				58F057491487937B00DD7941 /* AppDelegate.m in Sources */,
 				58F0574C1487937B00DD7941 /* ViewController.m in Sources */,
+				58F05757148793AE00DD7941 /* SingleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
